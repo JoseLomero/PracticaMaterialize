@@ -24,7 +24,7 @@ main {
     background-color: #546e7a;
 }
 .listadoMesas .card.ocupada {
-    background-color: #ff0000;
+    background-color: #009688;
 }
 
 .listadoMesas .disponible .comensales,
@@ -38,4 +38,22 @@ main {
 
 .cantidadComensales {
     font-weight: bold;
+}
+
+.pantalla {
+    border: 1px solid #FFF;
+    background-color: rgba(255,255,255,.9);
+    padding: 20px;
+}
+
+.valign-wrapper > .row {
+    width: 100%;
+}
+
+.screener.valign-wrapper {
+    min-height: 100vh;
+}
+
+.menu {
+    max-height: 150px;
 }
