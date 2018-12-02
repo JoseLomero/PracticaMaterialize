@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-image: url("../img/restaurant.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    flex: 1 0 auto;
+}
+.brand-logo >img {
+	width: 50px;
+	height: 50px;
+	margin-top: 5px;
+}
+
+/* LOGIN */
+.logueo.valign-wrapper {
+    min-height: 100vh;
+}
+
+.valign-wrapper > .row {
+    width: 100%;
+}
+
+i.iconis {
+    font-size: 2em!important;
+}
+.login {
+    border: 1px solid #FFF;
+    background-color: rgba(255,255,255,.9);
+    padding: 20px;
+}
+
+#usuario-login {
+    margin: 20px 0;
+}
+#usuario-login img {
+    width: 100px;
+}
