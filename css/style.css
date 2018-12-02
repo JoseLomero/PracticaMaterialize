@@ -35,3 +35,7 @@ main {
 .listadoMesas .ocupada .btn-reservar {
     display: none;
 }
+
+.cantidadComensales {
+    font-weight: bold;
+}

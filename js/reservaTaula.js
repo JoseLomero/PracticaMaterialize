@@ -51,7 +51,7 @@ function reservarMesa(idMesa, comensales) {
     var mesa = document.querySelector("#" + idMesa);
     
     // Asignamos la cantidad de comensales
-    mesa.querySelector(".comensales").innerHTML = comensales.toString();
+    mesa.querySelector(".comensales .cantidadComensales").innerHTML = comensales.toString();
 
     // Cambiamos el estado de la mesa
     toggleClass(mesa, "disponible", "ocupada");
@@ -66,9 +66,6 @@ function cancelarMesa(idMesa) {
     var idMesa = "mesa-" + idMesa;
     var mesa = document.querySelector("#" + idMesa);
     
-    // Asignamos la cantidad de comensales
-    mesa.querySelector(".comensales").innerHTML = comensales.toString();
-
     // Cambiamos el estado de la mesa
     toggleClass(mesa, "ocupada", "disponible");
 }
